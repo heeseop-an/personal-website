@@ -1,0 +1,124 @@
+@import "../../../data/globalStyles.css";
+
+.project {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	height: 100%;
+}
+
+.project a {
+	text-decoration: none;
+}
+
+
+.project:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.project:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project-container {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+
+.project-main {
+	display: flex;
+}
+
+.project-left-side {
+	flex-basis: 900px;
+}
+
+.project-right-side {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+}
+
+.project-image-container {
+	width: 370px;
+}
+
+.project-logo {
+	width: 30px;
+}
+
+.project-logo img {
+	width: 100%;
+}
+
+.project-image-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	/*width: 100%;*/
+	border-radius: 10%;
+	margin-top: 30px;
+	/*transform: rotate(3deg);*/
+}
+
+.project-image-wrapper img {
+	display: block;
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+}
+
+.project-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.project-description {
+	color: var(--secondary-color);
+}
+
+.project-stack {
+	padding-top: 10px;
+	color: var(--primary-color);
+	font-style: italic;
+}
+
+.project-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.project-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.project-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+	.project {
+		height: 300px;
+	}
+
+	.project-container {
+		padding-top: 60px;
+	}
+
+	.project-image-container {
+		width: 80%;
+	}
+}
