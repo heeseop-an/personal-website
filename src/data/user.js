@@ -3,7 +3,7 @@ const INFO = {
         title: "Heeseop An",
         name: "Heeseop An",
         email: "heeseop.an@outlook.com",
-        logo: "../logo.jpg",
+        logo: "logo.jpg",
     },
 
     socials: {
@@ -22,6 +22,7 @@ const INFO = {
         title: "About Me",
         description:
             "TODO ...",
+        img: "about.jpg"
     },
 
     contact: {

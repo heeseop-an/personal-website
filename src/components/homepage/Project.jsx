@@ -6,7 +6,7 @@ import {faLink} from "@fortawesome/free-solid-svg-icons";
 import "./styles/Project.css";
 
 const Project = (props) => {
-    const {logo, title, description, linkText, link, stack, image} = props;
+    const {title, description, linkText, link, stack, image} = props;
 
     return (
         <React.Fragment>

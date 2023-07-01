@@ -21,7 +21,7 @@ const Projects = () => {
                                 logo={project.logo}
                                 title={project.title}
                                 description={project.description}
-                                image={project.img}
+                                image={process.env.PUBLIC_URL + '/' + project.img}
                                 stack={project.stack}
                                 linkText={project.linkText}
                                 link={project.link}
