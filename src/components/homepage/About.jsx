@@ -1,11 +1,8 @@
-import React, {useEffect} from "react";
+import React from "react";
 import INFO from "../../data/user";
 import "./styles/About.css";
 
 const About = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
 
     return (
         <React.Fragment>

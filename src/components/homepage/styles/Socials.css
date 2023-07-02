@@ -1,22 +1,22 @@
 @import "../../../data/globalStyles.css";
 
 .socials-container a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .socials-container {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .socials-icon {
-	font-size: 20px;
-	color: var(--secondary-color);
+    font-size: 20px;
+    color: var(--secondary-color);
 }
 
 .socials-text {
-	color: var(--secondary-color);
-	padding-left: 30px;
-	margin-top: -27px;
-	font-weight: 600;
-	font-size: 15px;
+    color: var(--secondary-color);
+    padding-left: 30px;
+    margin-top: -27px;
+    font-weight: 600;
+    font-size: 15px;
 }

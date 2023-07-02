@@ -2,14 +2,13 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import "./styles/Project.css";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import {faLink} from "@fortawesome/free-solid-svg-icons";
 
 const Project = (props) => {
     const {title, description, linkText, link, stack, image} = props;
 
     return (
         <React.Fragment>
-            {/*<div className="project">*/}
             <div className="project-container">
                 <div className="project-main">
                     <div className="project-left-side">
@@ -38,7 +37,6 @@ const Project = (props) => {
                     </div>
                 </div>
             </div>
-            {/*</div>*/}
         </React.Fragment>
     );
 };
