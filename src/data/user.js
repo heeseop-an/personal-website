@@ -43,7 +43,7 @@ const INFO = {
                 img: "proPlanner.png",
                 stack: 'React, Express, Mongo DB, Node.js',
                 linkText: "View Project",
-                link: "https://github.com",
+                link: "https://github.com/rikili/ProPlanner",
             },
 
             {
@@ -53,7 +53,7 @@ const INFO = {
                 img: "ubcInsight.png",
                 stack: 'TypeScript, Node.js, HTML/CSS',
                 linkText: "View Project",
-                link: "https://github.com",
+                link: "https://www.dropbox.com/s/acq1ofpeapzhhxu/My%20Movie%20-%20HD%201080p.mov?dl=0",
             },
 
             {
@@ -63,7 +63,7 @@ const INFO = {
                 img: "weCanCook.png",
                 stack: 'PHP, HTML/CSS, Oracle',
                 linkText: "View Project",
-                link: "https://github.com",
+                link: "https://github.com/heeseop-an/WeCanCook",
             },
 
             {
@@ -73,7 +73,7 @@ const INFO = {
                 img: "wowBeauty.png",
                 stack: 'JavaScript, HTML/CSS, MySQL',
                 linkText: "View Project",
-                link: "https://github.com",
+                link: "http://143.110.237.83/",
             },
 
             {
@@ -83,7 +83,7 @@ const INFO = {
                 img: "nalox.png",
                 stack: 'Java, Swing, JavaFX',
                 linkText: "View Project",
-                link: "https://github.com",
+                link: "https://github.com/heeseop-an/Nalox",
             },
         ],
     }

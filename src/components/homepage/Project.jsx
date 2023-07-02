@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import "./styles/Project.css";
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Project = (props) => {
     const {title, description, linkText, link, stack, image} = props;
@@ -19,7 +19,7 @@ const Project = (props) => {
                         <Link to={link}>
                             <div className="project-link">
                                 <div className="project-link-icon">
-                                    <FontAwesomeIcon icon={faGithub}/>
+                                    <FontAwesomeIcon icon={faLink}/>
                                 </div>
                                 <div className="project-link-text">{linkText}</div>
                             </div>
