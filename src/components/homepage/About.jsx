@@ -9,27 +9,33 @@ const About = () => {
 
     return (
         <React.Fragment>
-            <div className="content-wrapper">
-                <div className="about-container">
-                    <div className="about-main">
-                        <div className="about-left-side">
-                            <div className="title about-title">
-                                {INFO.about.title}
-                            </div>
-                            <div className="subtitle about-subtitle">
-                                {INFO.about.description}
-                            </div>
+            <div className="about-container">
+                <div className="about-main">
+                    <div className="about-left-side">
+                        <div className="title about-title">
+                            {INFO.about.title}
                         </div>
+                        <div className="subtitle about-subtitle">
+                            <p>
+                                {INFO.about.body1}
+                            </p>
+                            <p>
+                                {INFO.about.body2}
+                            </p>
+                            <p>
+                                {INFO.about.body3}
+                            </p>
+                        </div>
+                    </div>
 
-                        <div className="about-right-side">
-                            <div className="about-image-container">
-                                <div className="about-image-wrapper">
-                                    <img
-                                        src={process.env.PUBLIC_URL + '/' + INFO.about.img}
-                                        alt="about"
-                                        className="about-image"
-                                    />
-                                </div>
+                    <div className="about-right-side">
+                        <div className="about-image-container">
+                            <div className="about-image-wrapper">
+                                <img
+                                    src={process.env.PUBLIC_URL + '/' + INFO.about.img}
+                                    alt="about"
+                                    className="about-image"
+                                />
                             </div>
                         </div>
                     </div>

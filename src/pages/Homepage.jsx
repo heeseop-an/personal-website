@@ -65,9 +65,10 @@ const Homepage = () => {
             </Helmet>
 
             <div className="page-content">
-                <NavBar active="home"/>
+                <NavBar/>
                 <div className="content-wrapper">
-                    <div className="homepage-logo-container">
+                    <div className="homepage-logo-container"
+                         id='home'>
                         <div style={logoStyle}>
                             <Logo width={logoSize} link={false}/>
                         </div>
@@ -83,6 +84,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="subtitle homepage-subtitle">
                                     {INFO.homepage.description}
+                                    <br/>
                                 </div>
                             </div>
                         </div>
@@ -109,15 +111,19 @@ const Homepage = () => {
                             </a>
                         </div>
 
-                        <div className="homepage-about">
+
+                        <div className="homepage-about"
+                             id='about'>
                             <About/>
                         </div>
 
-                        <div className="homepage-projects">
+                        <div className="homepage-projects"
+                             id='projects'>
                             <Projects/>
                         </div>
 
-                        <div className="homepage-contact">
+                        <div className="homepage-contact"
+                             id='contact'>
                             <Contact/>
                         </div>
 

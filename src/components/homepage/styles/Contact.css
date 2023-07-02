@@ -1,44 +1,49 @@
 @import "../../../data/globalStyles.css";
 
-.contact-body {
-	margin-bottom: 10px;
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.contact {
-	display: flex;
-	padding-bottom: 40px;
-	width: 400px;
+.contact-main {
+    display: flex;
 }
 
-.contact-image {
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	outline: 6px solid white;
-	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+.contact-left-side {
+    flex-basis: 900px;
 }
 
 .contact-title {
-	font-size: 15px;
-	font-weight: 700;
-	padding-left: 20px;
-	margin-top: -3px;
-	color: var(--secondary-color);
+    width: 100% !important;
 }
 
 .contact-subtitle {
-	position: absolute;
-	font-size: 12px;
-	color: var(--secondary-color);
-	padding-top: 22px;
-	padding-left: 50px;
+    width: 100% !important;
 }
 
-.contact-duration {
-	position: absolute;
-	width: 350px;
-	font-size: 12px;
-	padding-top: 0px;
-	text-align: right;
-	color: var(--tertiary-color);
+
+@media (max-width: 1024px) {
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .contact-subtitle {
+        padding-top: 20px !important;
+    }
+
+    .contact-left-side {
+        flex-basis: 100%;
+        order: 2;
+    }
 }
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding-top: 60px;
+    }
+}
+

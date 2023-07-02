@@ -9,35 +9,35 @@ import "./styles/Socials.css";
 
 const Socials = () => {
     return (
-        <div className="socials">
-            <div className="social">
+        <>
+            <div className="socials-container">
                 <a
                     href={INFO.socials.linkedin}
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <div className="social-icon">
+                    <div className="socials-icon">
                         <FontAwesomeIcon
                             icon={faLinkedin}
-                            className="social-icon"
+                            className="socials-icon"
                         />
                     </div>
-                    <div className="social-text">LinkedIn</div>
+                    <div className="socials-text">LinkedIn</div>
                 </a>
             </div>
-            <div className="social">
+            <div className="socials-container">
                 <a
                     href={`mailto:${INFO.main.email}`}
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <div className="social-icon">
+                    <div className="socials-icon">
                         <FontAwesomeIcon icon={faEnvelope}/>
                     </div>
-                    <div className="social-text">{INFO.main.email}</div>
+                    <div className="socials-text">{INFO.main.email}</div>
                 </a>
             </div>
-        </div>
+        </>
     );
 };
 

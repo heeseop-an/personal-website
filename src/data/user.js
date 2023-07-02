@@ -13,15 +13,17 @@ const INFO = {
 
     homepage: {
         title: "Good day!",
-        subTitle: "I am Heeseop(pronounced 'he-sub'), an aspiring Computer Science student at UBC",
+        subTitle: "I am Heeseop An, an aspiring computer science student at UBC.",
         description:
-            "TODO ...",
+            "I am looking for an internship opportunity.",
     },
 
     about: {
         title: "About Me",
-        description:
-            "TODO ...",
+        body1: "I am currently a 4th year student at UBC studying Computer Science.",
+        body2:
+            "My journey towards becoming a software engineer began during my previous career when I started teaching myself programming to streamline my work processes. This experience ultimately led me to the decision to study computer science at UBC.",
+        body3: "I have a deep passion for technology and how it can positively impact people's lives.",
         img: "about.jpg"
     },
 
@@ -37,10 +39,9 @@ const INFO = {
             {
                 title: "ProPlanner",
                 description:
-                    "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-                logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+                    "An outing arrangement app that focuses on seamlessly scheduling and planning trips for groups.",
                 img: "proPlanner.png",
-                stack: 'Java',
+                stack: 'React, Express, Mongo DB, Node.js',
                 linkText: "View Project",
                 link: "https://github.com",
             },
@@ -48,10 +49,9 @@ const INFO = {
             {
                 title: "insightUBC",
                 description:
-                    "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-                logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+                    "A web app to enable effective querying of historical data regarding the UBC's courses and classrooms.",
                 img: "ubcInsight.png",
-                stack: 'Java',
+                stack: 'TypeScript, Node.js, HTML/CSS',
                 linkText: "View Project",
                 link: "https://github.com",
             },
@@ -59,10 +59,9 @@ const INFO = {
             {
                 title: "WeCanCook",
                 description:
-                    "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-                logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+                    "A Meal Kit service web app that allows users to order meal kits, find new recipes, and read interesting blogs related to food.",
                 img: "weCanCook.png",
-                stack: 'Java',
+                stack: 'PHP, HTML/CSS, Oracle',
                 linkText: "View Project",
                 link: "https://github.com",
             },
@@ -70,10 +69,9 @@ const INFO = {
             {
                 title: "Wow Beauty Price Finder",
                 description:
-                    "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-                logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+                    "A price look-up web app that queries an item's price from a database consisting of more than 10,000 items using a barcode scanner.",
                 img: "wowBeauty.png",
-                stack: 'Java',
+                stack: 'JavaScript, HTML/CSS, MySQL',
                 linkText: "View Project",
                 link: "https://github.com",
             },
@@ -81,10 +79,9 @@ const INFO = {
             {
                 title: "Nalox",
                 description:
-                    "A skin care product inventory management app.",
-                logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+                    "A simple inventory app that enables users to keep track of the inventories of skincare products being sold on a marketplace.",
                 img: "nalox.png",
-                stack: 'Java JavaFX Swing',
+                stack: 'Java, Swing, JavaFX',
                 linkText: "View Project",
                 link: "https://github.com",
             },
