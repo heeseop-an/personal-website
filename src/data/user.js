@@ -67,7 +67,7 @@ const INFO = {
             },
 
             {
-                title: "Wow Beauty Price Finder",
+                title: "WowBeautyPriceFinder",
                 description:
                     "A price look-up web app that queries an item's price from a database consisting of more than 10,000 items using a barcode scanner.",
                 img: "wowBeauty.png",
