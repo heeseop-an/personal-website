@@ -47,7 +47,7 @@ const INFO = {
             },
 
             {
-                title: "insightUBC",
+                title: "InsightUBC",
                 description:
                     "A web app to enable effective querying of historical data regarding the UBC's courses and classrooms.",
                 img: "ubcInsight.png",
